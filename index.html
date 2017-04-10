@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="title">Portfolio - Simone</title>
+<meta name="author" content="Simone van Kempen">
+<meta name="description" content="Portfolio Simone van Kempen">
+<meta name="keywords" content="Simone, van Kempen, Portfolio, Webdeveloper, Nieuwegein">
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" type="text/css" href="styles/reset.css">
+<link rel="shortcut icon" href="images/skblack.png" type="image/x-icon"/>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+<!-- <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet" type="text/css"> -->
+
+
+</head>
+<body onload="hashFollower();" onhashchange="hashFollower();">
+<div class="row header">
+  <div class="row">
+    <div class="col-4"></div>
+    <img src="images/sk.png" class="col-1 col-m-2 icon">
+    <div class="col-3"></div>
+    <ul class= "col-5 col-m-12 topnav">
+      <li><a href="#about" onclick="loadPage('about.html');"><b>OVER MIJ</b></a></li>
+      <li><a href="#projecten" onclick="loadPage('projecten.html');"><b>PROJECTEN</b></a></li>
+      <li><a href="#contact" onclick="loadPage('contact.html');"><b>CONTACT</b></a></li>
+     </ul>
+</div>
+</div>
+
+
+
+<div id="content"></div>
+
+
+
+<div class="footer">
+
+<div class="col-12 col-m-12">Copyright <span class="copyright">(&copy)</span> 2017 Simone van Kempen | All rights reserved.<span id="Datum"></span></div>
+
+</div>
+</body>
+
+<script src="js/script.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96989770-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</html>
